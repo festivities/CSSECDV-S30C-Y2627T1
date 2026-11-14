@@ -379,9 +379,20 @@ def redirect(location, *cookies):
     return 302, "", [("Location", location)] + [("Set-Cookie", c) for c in cookies]
 
 
-def error_page(status, msg, session):
-    body = f'<p class="error">{e(msg)}</p><p><a href="/">Go back</a></p>'
-    return status, page(f"Error {status}", body, session), []
+ERROR_TITLES = {400: "Request rejected", 403: "Access denied", 404: "Page not found", 405: "Method not allowed",
+                413: "Request too large", 500: "Something went wrong"}
+# Where "Go back" leads after a rejected request: the page holding the form (first matching prefix wins).
+BACK_PAGES = [("/orders/new", "/products"), ("/forgot", "/forgot"), ("/login", "/login"), ("/register", "/register"),
+              ("/password", "/password"), ("/orders", "/orders"), ("/manage/products", "/manage/products"),
+              ("/manage/orders", "/manage/orders"), ("/admin/users", "/admin/users"), ("/admin/logs", "/admin/logs")]
+
+
+def error_page(status, msg, session, path=""):
+    back = "/"
+    if status == 400:  # fixed destinations only; nothing from the request goes into the link
+        back = next((dest for prefix, dest in BACK_PAGES if path.startswith(prefix)), "/")
+    body = f'<p class="error">{e(msg)}</p><p><a href="{e(back)}">Go back</a></p>'
+    return status, page(ERROR_TITLES.get(status, "Error"), body, session), []
 
 
 def fail(r, status, msg, commit, audit=None):
@@ -392,7 +403,7 @@ def fail(r, status, msg, commit, audit=None):
         if audit:
             log(r.db, audit[0], audit[1], "FAILURE", audit[2], who(r), r.ip)
         r.db.commit()
-    return error_page(status, msg, r.session)
+    return error_page(status, msg, r.session, r.path)
 
 
 def find_route(method, path):

@@ -128,6 +128,7 @@ def test_login_messages(base):
     s2, b2, _ = Client(base).request("POST", "/login", {"username": "no_such_user", "password": "Wrong#Password2026!"})
     assert s1 == s2 == 400, (s1, s2)
     assert b1 == b2 and LOGIN_FAIL in b1
+    assert '<a href="/login">Go back</a>' in b1 and "Request rejected" in b1  # back to the form, not a status code
 
 
 def test_lockout(base):

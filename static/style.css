@@ -120,3 +120,7 @@ th, td {
 .question {
   font-weight: 600;
 }
+
+input[name="description"] {
+  width: min(100%, 36rem);
+}
