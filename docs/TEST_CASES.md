@@ -81,7 +81,7 @@ Suggested order: run the tests top to bottom. Tests that lock an account use a t
 | Control Group | Test Scenario | Expected Outcome |
 |---|---|---|
 | Error Handling | E-01 [2.4.2] Open `/doesnotexist` while logged in. | Custom 404 page in the site layout, with a generic message. |
-| Error Handling | E-02 [2.4.2] Trigger a 403 (Z-01) and a 400 (V-01). | Custom error pages in the site layout, with generic messages. |
+| Error Handling | E-02 [2.4.2] Trigger a 403 (Z-01) and a 400 (V-01). | Custom error pages in the site layout. The 403 page shows a generic message; the 400 page states only which input rule was broken (e.g. "Quantity must be between 1 and 100."), never technical details. |
 | Error Handling | E-03 [2.4.1] Stop the server, rename the `products` table (`C:\Apps\convert-markdown\.venv\Scripts\python.exe -c "import sqlite3;c=sqlite3.connect('data/shop.db');c.execute('alter table products rename to p2');c.commit()"`), start the server and open `/products` as `customer`. Rename the table back afterwards. | Generic 500 page: "Something went wrong. Please try again later." No stack trace, SQL or file path is shown. The traceback is in `data/error.log` only. |
 | Error Handling | E-04 [2.4.1] Inspect the response headers of any page in the browser's developer tools. | The `Server` header shows only `SecureShop`; no Python or library version. |
 
@@ -93,7 +93,7 @@ Suggested order: run the tests top to bottom. Tests that lock an account use a t
 | Logging | L-02 [2.4.4] As `admin`, open "Audit log". | The log is displayed, newest first. There are no edit or delete controls. |
 | Logging | L-03 [2.4.6, 2.4.3] As `admin`, filter the log by category `AUTH`. | Entries for every login attempt in section 2.1: `SUCCESS` rows for logins, logouts, registration, password change and reset; `FAILURE` rows with details such as "unknown user", "wrong password", "lockout triggered", "account locked", "re-auth failed". |
 | Logging | L-04 [2.4.7] Filter by category `ACCESS`. | `FAILURE` rows for the unauthenticated requests (A-01), the 403s (Z-01 to Z-03, L-01), the "not owner" attempt (Z-05) and the CSRF failure (Z-12), with username, IP and path. |
-| Logging | L-05 [2.4.5] Filter by category `VALIDATION`. | `FAILURE` rows for every rejected input in section 2.3, naming the rule that failed. No passwords appear. |
+| Logging | L-05 [2.4.5] Filter by category `VALIDATION`. | `FAILURE` rows for every rejected input in section 2.3 (and the rejected passwords in A-04, A-12, A-14 and A-17), each with the validation message and the request path. No passwords appear. |
 | Logging | L-06 [2.4.3] Filter by outcome `SUCCESS`, then by category `DATA` and `ADMIN`. | Successful product, order and account operations are listed. |
 | Logging | L-07 [2.4.3] Filter by username `demo_user`, and by a date range covering today. | Only matching rows are shown. |
 | Logging | L-08 [2.4.1] Filter by category `ERROR`. | The 500 from E-03 appears with the exception class name only. |

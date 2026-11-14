@@ -323,7 +323,7 @@ def v_int(form, name, lo, hi):
     if not matches(r"\d{1,9}", val):
         raise ValidationError(f"Invalid {name}.")
     if not lo <= int(val) <= hi:
-        raise ValidationError(f"{name} must be between {lo} and {hi}.")
+        raise ValidationError(f"{name.capitalize()} must be between {lo} and {hi}.")
     return int(val)
 
 
