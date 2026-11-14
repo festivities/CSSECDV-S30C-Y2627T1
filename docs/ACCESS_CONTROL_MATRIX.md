@@ -11,15 +11,15 @@
 | Role | Description |
 |---|---|
 | Unregistered | Any visitor without a valid session. |
-| Customer (Role B) | Self-registered user. Works only with their own orders. |
 | Product Manager (Role A) | Manages the product catalog and the fulfilment of all customers' orders. |
+| Customer (Role B) | Self-registered user. Works only with their own orders. |
 | Administrator | Website Administrator. Manages Administrator and Product Manager accounts and reads the audit log. Has no access to products or orders (least privilege). |
 
 The matrix is enforced by a single component: the `ROUTES` table and `authorize()` in `app.py`. Anything not listed is denied (HTTP 404, or 403 / redirect to login).
 
 ## 2. Matrix
 
-| Feature / Resource | Unregistered | Customer | Product Manager | Administrator |
+| Feature / Resource | Unregistered | Product Manager | Customer | Administrator |
 |---|---|---|---|---|
 | View login page and log in (`/login`) | Yes | Yes | Yes | Yes |
 | Register a new Customer account (`/register`) | Yes | Yes | Yes | Yes |
@@ -29,17 +29,17 @@ The matrix is enforced by a single component: the `ROUTES` table and `authorize(
 | Log out (`/logout`) | No | Yes | Yes | Yes |
 | Change own password, with re-authentication (`/password`) | No | Yes | Yes | Yes |
 | View product catalog (`/products`) | No | Yes | Yes | No |
-| Place an order (`/orders/new`) | No | Yes | No | No |
-| View own orders (`/orders`) | No | Yes | No | No |
-| Edit quantity of own pending order (`/orders/<id>/edit`) | No | Yes | No | No |
-| Cancel own pending order (`/orders/<id>/cancel`) | No | Yes | No | No |
+| Place an order (`/orders/new`) | No | No | Yes | No |
+| View own orders (`/orders`) | No | No | Yes | No |
+| Edit quantity of own pending order (`/orders/<id>/edit`) | No | No | Yes | No |
+| Cancel own pending order (`/orders/<id>/cancel`) | No | No | Yes | No |
 | View, edit or cancel another customer's order | No | No | No | No |
-| View product management page (`/manage/products`) | No | No | Yes | No |
-| Add a product (`/manage/products/new`) | No | No | Yes | No |
-| Edit a product (`/manage/products/<id>/edit`) | No | No | Yes | No |
-| Delete a product (`/manage/products/<id>/delete`) | No | No | Yes | No |
-| View all customers' orders (`/manage/orders`) | No | No | Yes | No |
-| Mark a pending order fulfilled or cancelled (`/manage/orders/<id>/status`) | No | No | Yes | No |
+| View product management page (`/manage/products`) | No | Yes | No | No |
+| Add a product (`/manage/products/new`) | No | Yes | No | No |
+| Edit a product (`/manage/products/<id>/edit`) | No | Yes | No | No |
+| Delete a product (`/manage/products/<id>/delete`) | No | Yes | No | No |
+| View all customers' orders (`/manage/orders`) | No | Yes | No | No |
+| Mark a pending order fulfilled or cancelled (`/manage/orders/<id>/status`) | No | Yes | No | No |
 | View list of user accounts (`/admin/users`) | No | No | No | Yes |
 | Create Administrator / Product Manager account (`/admin/users/new`) | No | No | No | Yes |
 | Change role of an Administrator / Product Manager account (`/admin/users/<id>/role`) | No | No | No | Yes |
