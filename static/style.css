@@ -1,0 +1,122 @@
+:root {
+  --fg: #1d1d1f;
+  --muted: #5f6368;
+  --line: #d0d4da;
+  --accent: #1a5fb4;
+  --bad: #b00020;
+  --bg: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: var(--fg);
+  background: var(--bg);
+  line-height: 1.4;
+}
+
+header, main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+header h1 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+nav a {
+  color: var(--accent);
+}
+
+main {
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+form {
+  margin: 12px 0;
+}
+
+form.inline {
+  display: inline;
+  margin: 0;
+}
+
+label {
+  display: block;
+  margin: 8px 0;
+}
+
+input, select, button {
+  font: inherit;
+  max-width: 100%;
+  padding: 6px 8px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+
+button {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+th, td {
+  padding: 6px 8px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+}
+
+.card {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+.error {
+  color: var(--bad);
+  font-weight: 600;
+}
+
+.hint {
+  margin: 2px 0 8px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.question {
+  font-weight: 600;
+}
