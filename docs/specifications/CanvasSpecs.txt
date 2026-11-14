@@ -1,0 +1,221 @@
+<div class="user_content enhanced" data-testid="assignments-2-assignment-description">
+  <h3>Resources</h3>
+  <ul>
+    <li>
+      <span class="instructure_file_holder link_holder instructure_file_link_holder">
+        <a class="auto_open file_preview_link previewable" href="https://dlsu.instructure.com/courses/272226/files/33470933?wrap=1" target="_blank" data-canvas-previewable="true" data-api-endpoint="https://dlsu.instructure.com/api/v1/courses/272226/files/33470933" data-api-returntype="File" rel="noopener" aria-expanded="true" aria-controls="preview_4" style="">Specifications</a>
+        <a class="file_download_btn" role="button" download="" style="margin-inline-start: 5px; text-decoration: none;" href="https://dlsu.instructure.com/courses/272226/files/33470933/download?download_frd=1">
+          <span role="presentation">
+            <svg name="IconDownload" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1uh2md0-inlineSVG-svgIcon">
+              <g role="presentation">
+                <path d="m1807.093 1482.477 79.736 79.963-355.313 355.312H355.346L.035 1562.44l79.85-79.963 322.22 322.334H1484.76l322.334-322.334ZM997.677-.033v1167.02l355.313-355.313 79.962 79.85-491.858 491.633L449.46 891.524l79.962-79.85 355.313 355.313V-.033h112.941Z" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+          </span>
+          <span class="screenreader-only">Download Specifications</span>
+        </a>
+        <div role="region" class="preview_container" id="preview_4" style="display: block;">
+          <a href="#" style="font-size: 0.8em;" class="hide_file_preview_link">Minimize File Preview</a>
+          <div style="overflow: auto; resize: vertical; border: 1px solid transparent; height: 100%;">
+            <iframe aria-label="File preview for Machine Project Specifications - Web App.pdf" src="https://dlsu.instructure.com/api/v1/canvadoc_session?blob=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDIyNTAwMDAwMDAwOTYyNjYsImF0dGFjaG1lbnRfaWQiOjMzNDcwOTMzLCJ0eXBlIjoiY2FudmFkb2MiLCJleHAiOjE3OTQ3NDcxMjN9.KeStnhu9tvQYe5B40TownHZ1WpQUr6Fgs8SwG0CsLZI" width="100%" allowfullscreen="1" style="border: 0; overflow: auto; height: 99%; min-height: 800px" id="undefined"></iframe>
+          </div>
+        </div>
+      </span>
+    </li>
+    <li>
+      <span class="instructure_file_holder link_holder instructure_file_link_holder">
+        <a id="30733271" class="inline_disabled preview_in_overlay" href="https://dlsu.instructure.com/courses/272226/files/33470911?wrap=1" target="_blank" data-canvas-previewable="true" data-api-endpoint="https://dlsu.instructure.com/api/v1/courses/272226/files/33470911" data-api-returntype="File" rel="noopener">Checklist</a>
+        <a class="file_download_btn" role="button" download="" style="margin-inline-start: 5px; text-decoration: none;" href="https://dlsu.instructure.com/courses/272226/files/33470911/download?download_frd=1">
+          <span role="presentation">
+            <svg name="IconDownload" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1uh2md0-inlineSVG-svgIcon">
+              <g role="presentation">
+                <path d="m1807.093 1482.477 79.736 79.963-355.313 355.312H355.346L.035 1562.44l79.85-79.963 322.22 322.334H1484.76l322.334-322.334ZM997.677-.033v1167.02l355.313-355.313 79.962 79.85-491.858 491.633L449.46 891.524l79.962-79.85 355.313 355.313V-.033h112.941Z" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+          </span>
+          <span class="screenreader-only">Download Checklist</span>
+        </a>
+      </span>
+    </li>
+  </ul>
+  <hr>
+  <h3>Deliverables and Project Demo Requirements</h3>
+  <h4>Security Documentation</h4>
+  <p>This document contains the details of the security modifications done on the application following the format:</p>
+  <p style="text-align: center;">
+    <em>Security Documentation Format</em>
+  </p>
+  <table style="border-collapse: collapse; width: 100%; margin-left: auto; margin-right: auto;" border="1px" width="100%">
+    <tbody>
+      <tr>
+        <td style="width: 25.0209%;" width="20%">
+          <p>
+            <strong>Security Requirement / Issue</strong>
+          </p>
+        </td>
+        <td style="width: 25.0209%;" width="20%">
+          <p>
+            <strong>Vulnerability</strong>
+          </p>
+        </td>
+        <td style="width: 25.0209%;" width="20%">
+          <p>
+            <strong>Impact</strong>
+          </p>
+        </td>
+        <td style="width: 25.0209%;" width="20%">
+          <p>
+            <strong>Security Control</strong>
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 25.0209%;" width="20%">
+          <p>&lt;Checklist item&gt;</p>
+        </td>
+        <td style="width: 25.0209%;" width="20%">
+          <p>&lt;The vulnerability to be addressed to reduce risk&gt;</p>
+        </td>
+        <td style="width: 25.0209%;" width="20%">
+          <p>&lt;Scenario if the vulnerability is exploited&gt;</p>
+        </td>
+        <td style="width: 25.0209%;" width="20%">
+          <p>&lt;Detailed description of the logic, algorithms, or methods used&gt;</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 25.0209%;" width="20%">
+          <p>…</p>
+        </td>
+        <td style="width: 25.0209%;" width="20%">
+          <p>&nbsp;</p>
+        </td>
+        <td style="width: 25.0209%;" width="20%">
+          <p>&nbsp;</p>
+        </td>
+        <td style="width: 25.0209%;" width="20%">
+          <p>&nbsp;</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h4>Access Control Matrix</h4>
+  <p>This document contains a table mapping every system feature to the specific Roles (2-5) authorized to use them.</p>
+  <p style="text-align: center;">
+    <em>Access Control Matrix Format</em>
+  </p>
+  <table style="border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1">
+    <tbody>
+      <tr>
+        <td width="88">
+          <p>
+            <strong>Feature / Resource</strong>
+          </p>
+        </td>
+        <td width="99">
+          <p>
+            <strong>Unregistered</strong>
+          </p>
+        </td>
+        <td width="88">
+          <p>
+            <strong>&lt;Role A&gt;</strong>
+          </p>
+        </td>
+        <td width="87">
+          <p>
+            <strong>&lt;Role B&gt;</strong>
+          </p>
+        </td>
+        <td width="87">
+          <p>
+            <strong>Administrator</strong>
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td width="88">
+          <p>&lt;Feature&gt;</p>
+        </td>
+        <td width="99">
+          <p>&lt;Yes / No&gt;</p>
+        </td>
+        <td width="88">
+          <p>&lt;Yes / No&gt;</p>
+        </td>
+        <td width="87">
+          <p>&lt;Yes / No&gt;</p>
+        </td>
+        <td width="87">
+          <p>&lt;Yes / No&gt;</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="88">
+          <p>…</p>
+        </td>
+        <td width="99">
+          <p>&nbsp;</p>
+        </td>
+        <td width="88">
+          <p>&nbsp;</p>
+        </td>
+        <td width="87">
+          <p>&nbsp;</p>
+        </td>
+        <td width="87">
+          <p>&nbsp;</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h4>Test Cases</h4>
+  <p>This document contains a summary of the test cases to be used during the live project demo.</p>
+  <p style="text-align: center;">
+    <em>Test Cases Format</em>
+  </p>
+  <table style="border-collapse: collapse; width: 100%;" border="1" width="100%">
+    <tbody>
+      <tr>
+        <td width="33%">
+          <p>
+            <strong>Control Group</strong>
+          </p>
+        </td>
+        <td width="33%">
+          <p>
+            <strong>Test Scenario</strong>
+          </p>
+        </td>
+        <td width="33%">
+          <p>
+            <strong>Expected Outcome</strong>
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td width="33%">
+          <p>&lt;Authentication / Authorization / Data Validation / Error Handling / Logging&gt;</p>
+        </td>
+        <td width="33%">
+          <p>&lt;Description of scenario such as what is the needed input&gt;</p>
+        </td>
+        <td width="33%">
+          <p>&lt;Description of how the application will respond to the scenario&gt;</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="33%">
+          <p>…</p>
+        </td>
+        <td width="33%">
+          <p>&nbsp;</p>
+        </td>
+        <td width="33%">
+          <p>&nbsp;</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p>&nbsp;</p>
+</div>

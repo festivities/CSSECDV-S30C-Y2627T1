@@ -1,0 +1,291 @@
+<div dir="ltr" data-testid="rubric-assessment-traditional-view" class="css-1bwkjem-view">
+  <div dir="ltr" class="css-1drx4lt-view">
+    <span dir="ltr" direction="row" wrap="no-wrap" class="css-e3l2il-view--flex-flex">
+      <span wrap="normal" letter-spacing="normal" class="css-g5lcut-text">Machine Project - Web App</span>
+    </span>
+  </div>
+  <table style="width: 100%; height: 100%;">
+    <caption aria-hidden="true">
+      <span class="css-p7pe68-screenReaderContent">Machine Project - Web App</span>
+    </caption>
+    <thead class="css-4zjciw-head">
+      <tr>
+        <td dir="ltr" id="rubric-header-criteria" class="css-82lddb-view">
+          <span wrap="normal" letter-spacing="normal" class="css-g5lcut-text">Criteria</span>
+        </td>
+        <td dir="ltr" id="rubric-header-ratings" class="css-82lddb-view">
+          <span wrap="normal" letter-spacing="normal" class="css-g5lcut-text">Ratings</span>
+        </td>
+        <td dir="ltr" id="rubric-header-points" class="css-ckln2s-view">
+          <span wrap="normal" letter-spacing="normal" class="css-g5lcut-text">Points</span>
+        </td>
+      </tr>
+    </thead>
+    <tbody dir="ltr" class="css-sy5x2n-view-body">
+      <tr style="border-width: 0.0625rem 0px; border-bottom-color: rgb(215, 218, 222); border-bottom-style: solid;">
+        <td style="height: 100%; vertical-align: top; padding: 0px; max-width: 11.25rem;">
+          <div dir="ltr" direction="column" wrap="no-wrap" class="css-1vr3sx0-view--flex-flex">
+            <div dir="ltr" class="css-us0t64-view">
+              <span wrap="normal" letter-spacing="normal" class="css-g5lcut-text">Security Documentation</span>
+            </div>
+            <div dir="ltr" class="css-143yxyl-view"></div>
+          </div>
+        </td>
+        <td dir="ltr" class="css-125mjzw-view">
+          <div dir="ltr" class="css-1cxtp0d-view">
+            <div dir="ltr" data-criterion-id="_2529" data-testid="traditional-view-criterion-ratings" data-direction="row" direction="row" wrap="no-wrap" class="css-jius8r-view--flex-flex">
+              <div dir="ltr" class="css-55251p-view-flexItem">
+                <div dir="ltr" class="css-hjai6r-view">
+                  <button dir="ltr" disabled="" tabindex="0" cursor="not-allowed" data-testid="traditional-criterion-_2529-ratings-0" class="css-1dimbz9-view">
+                    <span class="css-p7pe68-screenReaderContent"></span>
+                    <span dir="ltr" direction="column" wrap="no-wrap" class="css-8o956m-view--flex-flex">
+                      <span dir="ltr" class="css-px6ub5-view-flexItem">
+                        <span wrap="normal" letter-spacing="normal" class="css-g5lcut-text">Exceptional</span>
+                      </span>
+                      <span dir="ltr" class="css-ke4h1j-view-flexItem">
+                        <div dir="ltr" class="css-us0t64-view">
+                          <span style="white-space: pre-wrap;">
+                            <span wrap="normal" letter-spacing="normal" class="css-1qe8d4s-text">All security modifications are documented with comprehensive technical details. The distinction between Vulnerability and Impact is clear, and the “Security Control” column specifies exact algorithms or methods used.</span>
+                          </span>
+                        </div>
+                      </span>
+                      <span dir="ltr" class="css-px6ub5-view-flexItem">
+                        <div dir="ltr" class="css-1akslsk-view">
+                          <span dir="ltr" class="css-us0t64-view">
+                            <span data-testid="traditional-criterion-_2529-ratings-0-points" wrap="normal" letter-spacing="normal" class="css-h7tmoq-text">15 to &gt;13 pts</span>
+                          </span>
+                        </div>
+                      </span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div dir="ltr" class="css-55251p-view-flexItem">
+                <div dir="ltr" class="css-hjai6r-view">
+                  <button dir="ltr" disabled="" tabindex="0" cursor="not-allowed" data-testid="traditional-criterion-_2529-ratings-1" class="css-1dimbz9-view">
+                    <span class="css-p7pe68-screenReaderContent"></span>
+                    <span dir="ltr" direction="column" wrap="no-wrap" class="css-8o956m-view--flex-flex">
+                      <span dir="ltr" class="css-px6ub5-view-flexItem">
+                        <span wrap="normal" letter-spacing="normal" class="css-g5lcut-text">Satisfactory</span>
+                      </span>
+                      <span dir="ltr" class="css-ke4h1j-view-flexItem">
+                        <div dir="ltr" class="css-us0t64-view">
+                          <span style="white-space: pre-wrap;">
+                            <span wrap="normal" letter-spacing="normal" class="css-1qe8d4s-text">Most modifications are documented. Technical descriptions are present but may lack specific details.</span>
+                          </span>
+                        </div>
+                      </span>
+                      <span dir="ltr" class="css-px6ub5-view-flexItem">
+                        <div dir="ltr" class="css-1akslsk-view">
+                          <span dir="ltr" class="css-us0t64-view">
+                            <span data-testid="traditional-criterion-_2529-ratings-1-points" wrap="normal" letter-spacing="normal" class="css-h7tmoq-text">13 to &gt;11 pts</span>
+                          </span>
+                        </div>
+                      </span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div dir="ltr" class="css-55251p-view-flexItem">
+                <div dir="ltr" class="css-hjai6r-view">
+                  <button dir="ltr" disabled="" tabindex="0" cursor="not-allowed" data-testid="traditional-criterion-_2529-ratings-2" class="css-1dimbz9-view">
+                    <span class="css-p7pe68-screenReaderContent"></span>
+                    <span dir="ltr" direction="column" wrap="no-wrap" class="css-8o956m-view--flex-flex">
+                      <span dir="ltr" class="css-px6ub5-view-flexItem">
+                        <span wrap="normal" letter-spacing="normal" class="css-g5lcut-text">Needs Improvement</span>
+                      </span>
+                      <span dir="ltr" class="css-ke4h1j-view-flexItem">
+                        <div dir="ltr" class="css-us0t64-view">
+                          <span style="white-space: pre-wrap;">
+                            <span wrap="normal" letter-spacing="normal" class="css-1qe8d4s-text">Documentation is missing multiple entries or contains vague “Security Control” descriptions.</span>
+                          </span>
+                        </div>
+                      </span>
+                      <span dir="ltr" class="css-px6ub5-view-flexItem">
+                        <div dir="ltr" class="css-1akslsk-view">
+                          <span dir="ltr" class="css-us0t64-view">
+                            <span data-testid="traditional-criterion-_2529-ratings-2-points" wrap="normal" letter-spacing="normal" class="css-h7tmoq-text">11 to &gt;7 pts</span>
+                          </span>
+                        </div>
+                      </span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div dir="ltr" class="css-55251p-view-flexItem">
+                <div dir="ltr" class="css-1aozxy9-view">
+                  <button dir="ltr" disabled="" tabindex="0" cursor="not-allowed" data-testid="traditional-criterion-_2529-ratings-3" class="css-1dimbz9-view">
+                    <span class="css-p7pe68-screenReaderContent"></span>
+                    <span dir="ltr" direction="column" wrap="no-wrap" class="css-8o956m-view--flex-flex">
+                      <span dir="ltr" class="css-px6ub5-view-flexItem">
+                        <span wrap="normal" letter-spacing="normal" class="css-g5lcut-text">Incomplete</span>
+                      </span>
+                      <span dir="ltr" class="css-ke4h1j-view-flexItem">
+                        <div dir="ltr" class="css-us0t64-view">
+                          <span style="white-space: pre-wrap;">
+                            <span wrap="normal" letter-spacing="normal" class="css-1qe8d4s-text">Documentation is missing or does not follow the required format.</span>
+                          </span>
+                        </div>
+                      </span>
+                      <span dir="ltr" class="css-px6ub5-view-flexItem">
+                        <div dir="ltr" class="css-1akslsk-view">
+                          <span dir="ltr" class="css-us0t64-view">
+                            <span data-testid="traditional-criterion-_2529-ratings-3-points" wrap="normal" letter-spacing="normal" class="css-h7tmoq-text">7 to &gt;0 pts</span>
+                          </span>
+                        </div>
+                      </span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td dir="ltr" class="css-1m773oq-view-cell">
+          <div dir="ltr" class="css-melhks-view">
+            <span dir="ltr" direction="row" wrap="no-wrap" class="css-1s9virc-view--flex-flex">
+              <div style="display: flex; align-items: center; text-wrap: nowrap;">
+                <span dir="ltr" class="css-15oq9v8-view-flexItem">
+                  <span data-testid="criterion-score-_2529-readonly" wrap="normal" letter-spacing="normal" class="css-1jyml41-text"></span>
+                  <span wrap="normal" letter-spacing="normal" class="css-1jyml41-text">/15 pts</span>
+                </span>
+              </div>
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr style="border-width: 0px; border-bottom-color: rgb(215, 218, 222); border-bottom-style: solid;">
+        <td style="height: 100%; vertical-align: top; padding: 0px; max-width: 11.25rem;">
+          <div dir="ltr" direction="column" wrap="no-wrap" class="css-1vr3sx0-view--flex-flex">
+            <div dir="ltr" class="css-us0t64-view">
+              <span wrap="normal" letter-spacing="normal" class="css-g5lcut-text">Access Control Matrix</span>
+            </div>
+            <div dir="ltr" class="css-143yxyl-view"></div>
+          </div>
+        </td>
+        <td dir="ltr" class="css-125mjzw-view">
+          <div dir="ltr" class="css-1cxtp0d-view">
+            <div dir="ltr" data-criterion-id="_3217" data-testid="traditional-view-criterion-ratings" data-direction="row" direction="row" wrap="no-wrap" class="css-jius8r-view--flex-flex">
+              <div dir="ltr" class="css-55251p-view-flexItem">
+                <div dir="ltr" class="css-hjai6r-view">
+                  <button dir="ltr" disabled="" tabindex="0" cursor="not-allowed" data-testid="traditional-criterion-_3217-ratings-0" class="css-1dimbz9-view">
+                    <span class="css-p7pe68-screenReaderContent"></span>
+                    <span dir="ltr" direction="column" wrap="no-wrap" class="css-8o956m-view--flex-flex">
+                      <span dir="ltr" class="css-px6ub5-view-flexItem">
+                        <span wrap="normal" letter-spacing="normal" class="css-g5lcut-text">Exceptional</span>
+                      </span>
+                      <span dir="ltr" class="css-ke4h1j-view-flexItem">
+                        <div dir="ltr" class="css-us0t64-view">
+                          <span style="white-space: pre-wrap;">
+                            <span wrap="normal" letter-spacing="normal" class="css-1qe8d4s-text">The ACL accurately reflects the “Least Privilege” principle. Every system feature is mapped, including strict “No” values for Unregistered users.</span>
+                          </span>
+                        </div>
+                      </span>
+                      <span dir="ltr" class="css-px6ub5-view-flexItem">
+                        <div dir="ltr" class="css-1akslsk-view">
+                          <span dir="ltr" class="css-us0t64-view">
+                            <span data-testid="traditional-criterion-_3217-ratings-0-points" wrap="normal" letter-spacing="normal" class="css-h7tmoq-text">15 to &gt;13 pts</span>
+                          </span>
+                        </div>
+                      </span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div dir="ltr" class="css-55251p-view-flexItem">
+                <div dir="ltr" class="css-hjai6r-view">
+                  <button dir="ltr" disabled="" tabindex="0" cursor="not-allowed" data-testid="traditional-criterion-_3217-ratings-1" class="css-1dimbz9-view">
+                    <span class="css-p7pe68-screenReaderContent"></span>
+                    <span dir="ltr" direction="column" wrap="no-wrap" class="css-8o956m-view--flex-flex">
+                      <span dir="ltr" class="css-px6ub5-view-flexItem">
+                        <span wrap="normal" letter-spacing="normal" class="css-g5lcut-text">Sastisfactory</span>
+                      </span>
+                      <span dir="ltr" class="css-ke4h1j-view-flexItem">
+                        <div dir="ltr" class="css-us0t64-view">
+                          <span style="white-space: pre-wrap;">
+                            <span wrap="normal" letter-spacing="normal" class="css-1qe8d4s-text">Most features are mapped, but some permission overlaps are unclear.</span>
+                          </span>
+                        </div>
+                      </span>
+                      <span dir="ltr" class="css-px6ub5-view-flexItem">
+                        <div dir="ltr" class="css-1akslsk-view">
+                          <span dir="ltr" class="css-us0t64-view">
+                            <span data-testid="traditional-criterion-_3217-ratings-1-points" wrap="normal" letter-spacing="normal" class="css-h7tmoq-text">13 to &gt;11 pts</span>
+                          </span>
+                        </div>
+                      </span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div dir="ltr" class="css-55251p-view-flexItem">
+                <div dir="ltr" class="css-hjai6r-view">
+                  <button dir="ltr" disabled="" tabindex="0" cursor="not-allowed" data-testid="traditional-criterion-_3217-ratings-2" class="css-1dimbz9-view">
+                    <span class="css-p7pe68-screenReaderContent"></span>
+                    <span dir="ltr" direction="column" wrap="no-wrap" class="css-8o956m-view--flex-flex">
+                      <span dir="ltr" class="css-px6ub5-view-flexItem">
+                        <span wrap="normal" letter-spacing="normal" class="css-g5lcut-text">Needs Improvement</span>
+                      </span>
+                      <span dir="ltr" class="css-ke4h1j-view-flexItem">
+                        <div dir="ltr" class="css-us0t64-view">
+                          <span style="white-space: pre-wrap;">
+                            <span wrap="normal" letter-spacing="normal" class="css-1qe8d4s-text">Several features are missing from the matrix, or permissions do not align with the provided role descriptions.</span>
+                          </span>
+                        </div>
+                      </span>
+                      <span dir="ltr" class="css-px6ub5-view-flexItem">
+                        <div dir="ltr" class="css-1akslsk-view">
+                          <span dir="ltr" class="css-us0t64-view">
+                            <span data-testid="traditional-criterion-_3217-ratings-2-points" wrap="normal" letter-spacing="normal" class="css-h7tmoq-text">11 to &gt;7 pts</span>
+                          </span>
+                        </div>
+                      </span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div dir="ltr" class="css-55251p-view-flexItem">
+                <div dir="ltr" class="css-1aozxy9-view">
+                  <button dir="ltr" disabled="" tabindex="0" cursor="not-allowed" data-testid="traditional-criterion-_3217-ratings-3" class="css-1dimbz9-view">
+                    <span class="css-p7pe68-screenReaderContent"></span>
+                    <span dir="ltr" direction="column" wrap="no-wrap" class="css-8o956m-view--flex-flex">
+                      <span dir="ltr" class="css-px6ub5-view-flexItem">
+                        <span wrap="normal" letter-spacing="normal" class="css-g5lcut-text">Incomplete</span>
+                      </span>
+                      <span dir="ltr" class="css-ke4h1j-view-flexItem">
+                        <div dir="ltr" class="css-us0t64-view">
+                          <span style="white-space: pre-wrap;">
+                            <span wrap="normal" letter-spacing="normal" class="css-1qe8d4s-text">No ACL Matrix provided or it cannot distinguish between different user roles.</span>
+                          </span>
+                        </div>
+                      </span>
+                      <span dir="ltr" class="css-px6ub5-view-flexItem">
+                        <div dir="ltr" class="css-1akslsk-view">
+                          <span dir="ltr" class="css-us0t64-view">
+                            <span data-testid="traditional-criterion-_3217-ratings-3-points" wrap="normal" letter-spacing="normal" class="css-h7tmoq-text">7 to &gt;0 pts</span>
+                          </span>
+                        </div>
+                      </span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td dir="ltr" class="css-1m773oq-view-cell">
+          <div dir="ltr" class="css-melhks-view">
+            <span dir="ltr" direction="row" wrap="no-wrap" class="css-1s9virc-view--flex-flex">
+              <div style="display: flex; align-items: center; text-wrap: nowrap;">
+                <span dir="ltr" class="css-15oq9v8-view-flexItem">
+                  <span data-testid="criterion-score-_3217-readonly" wrap="normal" letter-spacing="normal" class="css-1jyml41-text"></span>
+                  <span wrap="normal" letter-spacing="normal" class="css-1jyml41-text">/15 pts</span>
+                </span>
+              </div>
+            </span>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
