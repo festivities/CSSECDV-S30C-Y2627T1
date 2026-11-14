@@ -58,7 +58,9 @@ SECURITY_HEADERS = [
     ("Content-Security-Policy", "default-src 'self'"),
     ("X-Frame-Options", "DENY"),
     ("X-Content-Type-Options", "nosniff"),
-    ("Referrer-Policy", "no-referrer"),
+    # Not "no-referrer": that makes browsers send "Origin: null" on same-site form posts,
+    # which the Origin check in handle() would reject.
+    ("Referrer-Policy", "same-origin"),
     ("Cache-Control", "no-store"),
 ]
 SCHEMA = """

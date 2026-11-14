@@ -41,6 +41,8 @@ class Client:
 
     def request(self, method, path, form=None, headers=None):
         hdrs = dict(headers or {})
+        if method == "POST":
+            hdrs.setdefault("Origin", self.base)  # browsers send this on form posts
         data = None
         if form is not None:
             data = urllib.parse.urlencode(form).encode()
